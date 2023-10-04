@@ -1,0 +1,43 @@
+.title{
+    font-family: system-ui;
+    background: black;
+    color: rgb(238, 225, 225);
+    text-align: center;
+    padding-bottom: 2em;
+    padding-top: 2em;
+    
+}
+
+.Lucas{
+    display:flex;
+    justify-content:right;
+    margin-bottom: 4px;
+
+}
+
+.submit{
+    margin-right: 10px;
+
+
+}
+
+.Crash:hover{
+    border: Solid yellow;
+
+
+}
+.caja{
+display: grid;
+grid-template-columns: repeat(3,1fr);
+grid-auto-rows: auto;
+}
+
+.contenedor{
+    display: flex;
+    border-width: 200px;
+    height: 200px;
+    border: 20px solid rgb(18, 8, 165);
+    margin-left: -40px;
+
+}
+

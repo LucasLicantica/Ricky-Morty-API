@@ -3,28 +3,40 @@ import "./character.css"
 import { useCharacter } from "./hooks/useCharacter";
 
 export function Character() {
-  const {getAllCharacter, Character} = useCharacter([])
+  const {getAllCharacter, allCharacter} = useCharacter([])
 
   //corchetes
   //useEffect y useState Hooks
 
   useEffect(() => {
-    getAllCharacter;
+    getAllCharacter();
   }, []);
    //useEffect recibe una funcion callback, es decir el codigo a ejecutar
    // recibe cuando se va a ejecutar
 
   return(
     //parentesis
+    <>
 
-    <ul>
-        {character.map((item,index) => (
-           <li key={index}>
+    <div className= "Lucas">
+    <button className="submit">Docs</button>
+    <button className="submit">About</button>
+    <button className="Crash">Support us</button>
+    </div>
+    <h1 className="title">The Rick and Morty API</h1>
+    <ul className="caja">
+        {allCharacter.map((item,index) => (
+           <div className="contenedor">
+            <img src={item.image} alt="http://localhost:5173/"/>
+            <div>
            <h3>{item.name}</h3>
            <p>{item.status}</p>
-           <img src={item.image} alt="" />
+           <li key={index}>
         </li>
+        </div>
+        </div>
        ))}   
     </ul>
+    </>
    );
 } 
