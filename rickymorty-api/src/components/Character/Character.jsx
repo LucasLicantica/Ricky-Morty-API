@@ -29,13 +29,18 @@ export function Character() {
            <div className="contenedor">
             <img src={item.image} alt="http://localhost:5173/"/>
             <div>
-           <h3>{item.name}</h3>
-           <p>{item.status}</p>
+           <h3>name:{item.name}</h3>
+           <p>status:{item.status}</p>
+           <p>species:{item.species}</p>
+           <p>gender:{item.gender}</p>
+           <p>origin:{item.origin.name}</p> 
+           <p>location:{item.location.name}</p>
            <li key={index}>
         </li>
         </div>
         </div>
        ))}   
+    <footer
     </ul>
     </>
    );
