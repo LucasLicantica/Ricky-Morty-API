@@ -40,8 +40,12 @@ export function Character() {
         </div>
         </div>
        ))}   
-    <footer
+    
     </ul>
+    <footer>
+
+      <h4 className="Final">Hecho por "Lucas Licantica"</h4>
+    </footer>
     </>
    );
 } 
