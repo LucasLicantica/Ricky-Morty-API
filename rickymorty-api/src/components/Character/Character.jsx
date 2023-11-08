@@ -33,8 +33,8 @@ export function Character() {
            <p>status:{item.status}</p>
            <p>species:{item.species}</p>
            <p>gender:{item.gender}</p>
-           <p>origin:{item.origin.name}</p> 
-           <p>location:{item.location.name}</p>
+           <p>origin:{item.origin.name}</p>
+           <div className="Capitulos"> episodes:</div> 
            <li key={index}>
         </li>
         </div>

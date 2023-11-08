@@ -28,22 +28,32 @@
 }
 .caja{
     display: grid;
-    grid-template-columns: repeat(3,1fr);
+    grid-template-columns: repeat(2,1fr);
     grid-auto-rows: auto;
-    margin-right: 30px;
+    margin-right: 20px;
     
 }
 
 .contenedor{
     display: flex;
-    border-width: 200px;
-    height: 200px;
-    border: 20px solid rgb(18, 8, 165);
-    margin-left: -110px;
+    border-width: 250px;
+    height: 210px;
+    border: 30px solid rgb(18, 8, 165);
+    margin-left: -10px;
 
 }
 
 
 .Final{
     text-align: center;
+}
+
+.Capitulos{
+    cursor: pointer
+}
+
+
+.Capitulos:hover{
+    color: Blue;
+
 }
